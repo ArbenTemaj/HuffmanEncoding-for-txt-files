@@ -1,0 +1,7 @@
+This java program uses huffman encoding to achieve lossless compression for the txt file encoded. 
+
+The inFile txt is use to set up or baseline char codes that we will use for the encoding process. 
+
+The program also does a decompression of the compressed file to double check if we get lossless compression.
+
+The main.java is the driver of the code.
