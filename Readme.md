@@ -54,6 +54,11 @@ public void computeCharCounts(int[] charCountAry, FileInputStream inFile) throws
 
 [Link to the Repository][df1]
 
+### _orginal text file_ ###
+![ScreenShots](https://github.com/ArbenTemaj/HuffmanEncoding-for-txt-files/blob/main/s1.png)
+### _compressed text file_ ###
+![ScreenShots](https://github.com/ArbenTemaj/HuffmanEncoding-for-txt-files/blob/main/s2.png)
+
 
 ## Decoding
 
@@ -99,6 +104,9 @@ file which we will call "deCompFile"*
 if the node is a leaf node, write the char to the decompressed file. Else we check the bit,
 if a 0 bit then go left; OR if a 1 bit then go right. We should get the decompressed file 
 the same as our inFile we pass in the beginning of the program.*
+
+### _decompressed text file_ ###
+![ScreenShots](https://github.com/ArbenTemaj/HuffmanEncoding-for-txt-files/blob/main/s3.png)
 
 [//]: # 
 
